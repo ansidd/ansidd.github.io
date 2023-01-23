@@ -30,7 +30,8 @@ url: "https://www.ansidd.github.io/" # the base hostname & protocol for your sit
 github_username:  ansidd
 
 # Build settings
-theme: minima
+markdown: kramdown
+remote_theme: benbalter/retlab
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
