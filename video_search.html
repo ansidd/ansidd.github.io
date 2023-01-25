@@ -4,7 +4,7 @@
     <script>
         function send_request(){
             var query = document.getElementById('vid_search_query').value
-            fetch('https://172.174.2.143:8000/search',{
+            fetch('http://172.174.2.143:8000/search',{
                 method : 'POST',
                 headers : {
                     'Accept': 'application/json',
