@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script>
+        function send_request(){
+            var query = document.getElementById('vid_search_query').value
+            fetch('http://172.174.2.143:8000/search',{
+                method : 'POST',
+                headers : {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body : JSON.stringify({"query" : query})
+            })
+        .then(response => response.json())
+        .then(response => function(){
+            console.log(response);
+            textarea = document.getElementById('result')
+            textarea.value = JSON.stringify(response)
+        })
+    }
+
+    </script>
+</head>
+<body>
+<input type='text' id='vid_search_query'>
+<button id='submit' onClick="send_request()"/>
+<video width="320" height="240" controls>
+  <source src="assets/bin/movie.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<textarea id="result"></textarea>
+
+
+</body>
+</html>

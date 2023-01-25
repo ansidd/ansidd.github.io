@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<html>
+<html style="background-image: url('assets/bin/seaweed_tile.jpg')">
 <style>
     .divhw {
-        background-color: #aee2f5;
-        background-transparency: 0.7
+
+        background-image: url("assets/bin/hwbg.jpeg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: contain;
+        width: 600px;
+        height: 50px
     }
 </style>
 
 <body >
 
-<div class="divhw"> <font size=15>Hello World,</font> </div>
+<div class="divhw" ><font size=6>Hello World,</font> </div>
 <br>
 <br>
 
 <center><img src="assets/bin/waving.gif"/></center>
 
+<a href="/video_search.html">Go to Video Search</a>
 <br>
 <br>
 
