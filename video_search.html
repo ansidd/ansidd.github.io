@@ -3,7 +3,7 @@
     <script>
         function send_request(){
             var query = document.getElementById('vid_search_query').value
-            fetch('https://ansidd.eastus.cloudapp.azure.com/8000/search',{
+            fetch('https://ansidd.eastus.cloudapp.azure.com:8000/search',{
                 method : 'POST',
                 headers : {
                     'Content-Type': 'application/json; charset=UTF-8'
