@@ -13,12 +13,12 @@
                 headers : {
                     'Content-Type': 'application/json; charset=UTF-8'
                 }
-            })
-        .then(response => response.json())
+            }
+        )
         .then(response => function(){
             console.log(response);
             textarea = document.getElementById('result')
-            textarea.value = JSON.stringify(response)
+            textarea.value = response
         })
     }
 
