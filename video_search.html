@@ -7,8 +7,7 @@
             fetch('http://172.174.2.143:8000/search',{
                 method : 'POST',
                 headers : {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json; charset=UTF-8'
                 },
                 body : JSON.stringify({"query" : query})
             })
