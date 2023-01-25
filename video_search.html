@@ -15,7 +15,7 @@
         .then(response => {
             console.log(response);
             textarea = document.getElementById('result')
-            textarea.value = response
+            textarea.value = response.json().get('result')
         })
     }
 
