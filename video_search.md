@@ -47,8 +47,8 @@ layout: default
 <body>
 
 <center>
-<label>Enter text Query:</label>
-<input type='text' id='vid_search_query'>
+
+<input type='text' id='vid_search_query' value='Search'>
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
@@ -81,41 +81,39 @@ layout: default
         <td>
             <video width="320" height="240" controls id="video5" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_5">
-            </video><br>
+            </video>
         </td>
         <td>
             <video width="320" height="240" controls id="video6" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_6">
-            </video><br>
+            </video>
         </td>
     </tr>
     <tr>
         <td>
             <video width="320" height="240" controls id="video7" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_7">
-            </video><br>
+            </video>
         </td>
         <td>
             <video width="320" height="240" controls id="video8" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_8">
-            </video><br>
+            </video>
         </td>
     </tr>
     <tr>
         <td>
             <video width="320" height="240" controls id="video9" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_9">
-            </video><br>
+            </video>
         </td>
         <td>
             <video width="320" height="240" controls id="video10" hidden="hidden">
             <source src="assets/bin/movie.mp4" type="video/mp4" id="'vid_source_10">
-            </video><br>
+            </video>
         </td>
     </tr>
 </table>
-<textarea id="result"></textarea>
-
 </center>
 </body>
 </html>
