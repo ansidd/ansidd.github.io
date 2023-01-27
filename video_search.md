@@ -24,11 +24,11 @@ layout: default
             video_list = response['result'].split(";")
 
             var i=1,l=video_list.length
-            for(i==1; i<=l; i++){
+            for(i==1; i<=10; i++){
                 vid_element = document.getElementById('video'+i)
                 vid_source_element = document.getElementById('vid_source_'+i)
 
-                if(i<l){
+                if(i<=l){
                     vid_element.removeAttribute('hidden')
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
                     //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
