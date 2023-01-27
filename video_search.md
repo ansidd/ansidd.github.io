@@ -2,6 +2,7 @@
 layout: default
 ---
 
+## Video Search using Dual Encoders
 <html>
 <head>
     <script>
