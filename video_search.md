@@ -30,7 +30,7 @@ layout: default
 
                 if(i<l){
                     vid_element.removeAttribute('hidden')
-                    vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i]+".mp4"
+                    vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
                     //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
 
                 }else{
