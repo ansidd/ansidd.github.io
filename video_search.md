@@ -42,6 +42,9 @@ layout: default
 
         })
     }
+    $(document).ready(function () {
+   document.getElementById("submit").click();
+    });
 
     </script>
 </head>
@@ -49,7 +52,7 @@ layout: default
 
 <center>
 
-<input type='text' id='vid_search_query' value='Search'>
+<input type='text' id='vid_search_query' value='Driving car on the highway'>
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
