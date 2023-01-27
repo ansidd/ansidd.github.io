@@ -42,7 +42,7 @@ layout: default
 
         })
     }
-    $(document).ready(function () {
+    (document).ready(function () {
    document.getElementById("submit").click();
     });
 
