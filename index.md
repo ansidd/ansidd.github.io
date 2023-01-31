@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<html style="background-image: url('assets/bin/seaweed_tile.jpg')">
+<!-- <html style="background-image: url('assets/bin/seaweed_tile.jpg')"> -->
+<html>
 <style>
     .divhw {
 
@@ -39,4 +40,6 @@ layout: default
 </html>
 
 
-#### I am a Computer Science Engineer currently pursuing Master's Degree at New York University. 
+#### I'm a Computer Science Engineer through and through. Currently pursuing a Master's degree at NYU Tandon School of Engineering focusing on Deep Learning, Computer Vision and Natural Language Processing. I've worked on a variety of projects in these areas over the years. Currently a part of the CV team of the NYU Ultraviolet Robomasters. 
+
+#### Please take a look around to know more about me. Feel free to mail me at as15840@nyu.edu if you have any unanswered questions or just to say hi :) 
