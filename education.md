@@ -4,7 +4,7 @@ layout: default
 
 ## Education
 ---
-#### Master of Science, Computer Science ![nyutse](./assets/bin/nyutse.jpeg)
+#### Master of Science, Computer Science <img src="./assets/bin/nyutse.jpeg" width=500>
 [Tandon School of Engineering of New York University](https://engineering.nyu.edu/)  
 
 CGPA: 3.6
