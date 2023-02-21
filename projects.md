@@ -10,8 +10,8 @@ layout: default
 **What is it?**  
 Given a text query, the system returns the videos that are most relevant to the query in the database.
 
-**The magic behind it:**  
-Dual encoders! We trained dual encoders of image and text to generate embeddings that locate image and text data close to each other when they're related. We trained the dual encoder using image-captioning dataset. We then perform the video search by sampling images form the videos and generating embeddings of these images and store them in milvus vector database. We then generate an embedding of the text query and find the closest matches and fetch the videos to with these images belong to.
+**Contribution:**  
+Headed a team of three in developing the video search system. Developed dual encoder model of the following combinations: BERT and IncpetionV3; BERT and yolo. Configured Milvus vector database to store the embeddings. Assesed the performance of various combinations. Beyond the course project, continued to build a pipeline for the system and hosted it on this site. 
 
 **Use it here:** <a href="https://ansidd.github.io/video_search.html">Video Search</a>  
 
@@ -26,8 +26,8 @@ Dual encoders! We trained dual encoders of image and text to generate embeddings
 **What is it?**  
 Detects and labels faces in a video feed as "with mask" or "without mask".
 
-**The magic behind it:**
-We performed transfer learning on yoloface model to detect the two different categories. yolo is an object detection model. yoloface is a variant of yolo that was trained to identify faces. We used the learning of this model by freezing the upstream layers and training the downstream layers to learn to detect the classes "with mask" or "without mask".
+**Contribution:**
+Performed transfer learning on yoloface model to detect the two different categories. yolo is an object detection model. yoloface is a variant of yolo that was trained to identify faces. We used the learning of this model by freezing the upstream layers and training the downstream layers to learn to detect the classes "with mask" or "without mask".
 
 **Code Repository:** <a href="https://github.com/satsushi0/CSGY6923-ML"><img src="assets/bin/github.png" width="30" /></a>
 
@@ -37,17 +37,25 @@ We performed transfer learning on yoloface model to detect the two different cat
 
 **Collaborators:** <a href="https://www.linkedin.com/in/atsushi-shimizu/">Atsushi Shimizu</a>
 
+**About the project:**
+
+A article-style data visualization project. Using D3.js we created this short read that poses curious questions and investigates it with graphs. These graphs are a genius of my teammate and I. I would love to hear your feedback on it. 
+
 **View it here:** <a href="https://observablehq.com/@satsushi0/the-olympic-games-a-small-study">Olympics - A Small Study</a>
 
 ---
 
 ### Drug Response  
 
+In this project we identified biomarkers from gene expression data using Clustering Algorithms such as DBScan and K-Means. We also used different Machine Learning algorithms to predict drug response in cancer patients using data such as physiological makeup and economic status.
+
 **Collaborators:** <a href="https://www.linkedin.com/in/arundhati-g/">Arundhati Gorkhe</a>, <a href="https://www.linkedin.com/in/meghana-murthy-26a947150/">Meghana S Murthy</a>
 
 ---
 
-### Sign Language Recognizer  
+### Sign Language Alphabet Recognizer  
+
+Developed a sign language translation system that would detect and recognise the signs representing alphabets in sign language made in a webcam feed and outputs it on the screen. We created our own database and trained an SVM model with it.
 
 **Collaborators:** <a href="https://www.linkedin.com/in/bhavya-97/">Bhavya Jain</a>  
 
