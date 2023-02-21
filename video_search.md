@@ -2,7 +2,11 @@
 layout: default
 ---
 
-## Video Search using Dual Encoders
+## Video Search System
+
+---
+
+
 <html>
 <head>
     <script>
@@ -56,7 +60,7 @@ layout: default
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
-<table>
+<table border="0">
     <tr>
         <td>
             <video width="320" height="240" controls id="video1" hidden="hidden">
