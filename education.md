@@ -16,8 +16,9 @@ layout: default
 CGPA: 3.6  
 Coursework: Big Data, Deep Learning, Applied Machine Learning in Finance, Design and Analysis of Algorithms,
 Artificial Intelligence, Visualization for Machine Learning, Computer Vision,
-Information Visualization, Machine Learning, Fundamentals of Data Science
----
+Information Visualization, Machine Learning, Fundamentals of Data Science  
+---  
+
 ### Bachelor of Engineering, Computer Science and Engineering 
 <table>
 <tr>
