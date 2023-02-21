@@ -9,7 +9,7 @@ layout: default
 <tr>
 <td><a href="https://engineering.nyu.edu/">Tandon School of Engineering of New York University</a>
 </td>
-<td><img src="assets/bin/nyulogo.jpeg" width="100">
+<td><img src="assets/bin/nyulogo.png" width="100">
 </td>
 </tr>
 </table>  
@@ -23,7 +23,7 @@ Information Visualization, Machine Learning, Fundamentals of Data Science
 <tr>
 <td><a href="https://www.msrit.edu/">Ramaiah Institute of Technology, Bengaluru</a>
 </td>
-<td><img src="assets/bin/ritlogo.png" width="100">
+<td><img src="assets/bin/ritlogo.jpeg" width="100">
 </td>
 </tr>
 </table>  
