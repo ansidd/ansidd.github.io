@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- <html style="background-image: url('assets/bin/seaweed_tile.jpg')"> -->
-<html>
+<html >
 <style>
     .divhw {
 
@@ -16,7 +16,7 @@ layout: default
     }
 </style>
 
-<body >
+<body style="background-color:'#607EAA'">
 
 <div class="divhw" ><font size=6>Hello World,</font> </div>
 <br>
