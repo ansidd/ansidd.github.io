@@ -7,7 +7,6 @@ layout: default
 <style>
     .divhw {
 
-        background-image: url("assets/bin/hwbg.jpeg");
         background-repeat: no-repeat;
         background-position: center; 
         background-size: contain;
