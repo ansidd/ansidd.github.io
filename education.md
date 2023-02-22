@@ -1,9 +1,10 @@
 ---
+<html >
+<div style="background-color: #EAE3D2">
 layout: default
----
-
-<html style="background-color: #EAE3D2">
+</div>
 </html>
+---
 
 # Education
 
