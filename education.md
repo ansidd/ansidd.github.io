@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<html style="background-color: #EAE3D2">
+</html>
+
 # Education
 
 ---
