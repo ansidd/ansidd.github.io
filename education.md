@@ -1,9 +1,5 @@
 ---
-<html >
-<div style="background-color: #EAE3D2">
 layout: default
-</div>
-</html>
 ---
 
 # Education
@@ -35,7 +31,7 @@ Information Visualization, Machine Learning, Fundamentals of Data Science
 </td>
 </tr>
 </table>  
-GPA: 9  
+CGPA: 9  
 
 ---
 
