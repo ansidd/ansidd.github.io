@@ -15,7 +15,7 @@ Headed a team of three in developing the video search system. Developed dual enc
 
 **Use it here:** <a href="https://ansidd.github.io/video_search.html">Video Search</a>  
 
-**Code Repository:** <a href="https://github.com/arjunnyu/video-search-dl"><img src="assets/bin/github.png" width="30" /></a>
+**###C**<a href="https://github.com/arjunnyu/video-search-dl"><img src="assets/bin/github.png" width="30" /></a>**###DE**
 
 ---
 ### Face Mask Detection  
@@ -27,7 +27,7 @@ Headed a team of three in developing the video search system. Developed dual enc
 Detects and labels faces in a video feed as "with mask" or "without mask".
 
 **Contribution:**
-Performed transfer learning on yoloface model to detect the two different categories. yolo is an object detection model. yoloface is a variant of yolo that was trained to identify faces. We used the learning of this model by freezing the upstream layers and training the downstream layers to learn to detect the classes "with mask" or "without mask".
+Experimented with various yolo models to learn the object detection task. Performed transfer learning on yoloface model to detect the two different categories. yolo is an object detection model. yoloface is a variant of yolo that was trained to identify faces. Teammate and I used the learning of this model by freezing the upstream layers and training the downstream layers to learn to detect the classes "with mask" or "without mask".
 
 **Code Repository:** <a href="https://github.com/satsushi0/CSGY6923-ML"><img src="assets/bin/github.png" width="30" /></a>
 
@@ -47,7 +47,7 @@ A article-style data visualization project. Using D3.js we created this short re
 
 ### Drug Response  
 
-In this project we identified biomarkers from gene expression data using Clustering Algorithms such as DBScan and K-Means. We also used different Machine Learning algorithms to predict drug response in cancer patients using data such as physiological makeup and economic status.
+Using DBScan a clustering algorithm, identified biomarkers from gene expression data. I also developed ridge regression, lasso regression and random forest regressor models to predict drug response in cancer patients using data such as physiological makeup and economic status.
 
 **Collaborators:** <a href="https://www.linkedin.com/in/arundhati-g/">Arundhati Gorkhe</a>, <a href="https://www.linkedin.com/in/meghana-murthy-26a947150/">Meghana S Murthy</a>
 
@@ -55,7 +55,7 @@ In this project we identified biomarkers from gene expression data using Cluster
 
 ### Sign Language Alphabet Recognizer  
 
-Developed a sign language translation system that would detect and recognise the signs representing alphabets in sign language made in a webcam feed and outputs it on the screen. We created our own database and trained an SVM model with it.
+Developed a sign language translation system that would detect and recognise the signs representing alphabets in sign language made in a webcam feed and outputs it on the screen. We had created our own database and trained an SVM Classifier model with it.
 
 **Collaborators:** <a href="https://www.linkedin.com/in/bhavya-97/">Bhavya Jain</a>  
 
