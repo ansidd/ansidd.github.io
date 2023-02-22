@@ -15,7 +15,7 @@ Headed a team of three in developing the video search system. Developed dual enc
 
 **Use it here:** <a href="https://ansidd.github.io/video_search.html">Video Search</a>  
 
-**###C**<a href="https://github.com/arjunnyu/video-search-dl"><img src="assets/bin/github.png" width="30" /></a>**###DE**
+<a href="https://github.com/arjunnyu/video-search-dl"><img src="assets/bin/github.png" width="30" /></a>
 
 ---
 ### Face Mask Detection  
@@ -29,7 +29,7 @@ Detects and labels faces in a video feed as "with mask" or "without mask".
 **Contribution:**
 Experimented with various yolo models to learn the object detection task. Performed transfer learning on yoloface model to detect the two different categories. yolo is an object detection model. yoloface is a variant of yolo that was trained to identify faces. Teammate and I used the learning of this model by freezing the upstream layers and training the downstream layers to learn to detect the classes "with mask" or "without mask".
 
-**Code Repository:** <a href="https://github.com/satsushi0/CSGY6923-ML"><img src="assets/bin/github.png" width="30" /></a>
+<a href="https://github.com/satsushi0/CSGY6923-ML"><img src="assets/bin/github.png" width="30" /></a>
 
 
 ---
