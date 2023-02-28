@@ -28,6 +28,10 @@ layout: default
             textarea = document.getElementById('result')
             video_list = response['result'].split(";")
 
+            vid_table = document.getElementById('vid_table')
+            vid_table.removeAttribute('hidden')
+
+
             var i=1,l=video_list.length
             for(i==1; i<=10; i++){
                 vid_element = document.getElementById('video'+i)
@@ -60,7 +64,7 @@ layout: default
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
-<table border="0">
+<table border="0" hidden="hidden" id="vid_table">
     <tr>
         <td>
             <video width="320" height="240" controls id="video1" hidden="hidden">
