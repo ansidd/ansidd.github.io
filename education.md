@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-### Master of Science, Computer Science 
+### Master of Science - Computer Science 
 <table border="0">
 <tr>
 <td><a href="https://engineering.nyu.edu/">Tandon School of Engineering of New York University</a>
@@ -16,13 +16,11 @@ layout: default
 </tr>
 </table>  
 CGPA: 3.6  
-Coursework: Big Data, Deep Learning, Applied Machine Learning in Finance, Design and Analysis of Algorithms,
-Artificial Intelligence, Visualization for Machine Learning, Computer Vision,
-Information Visualization, Machine Learning, Fundamentals of Data Science  
+Coursework: Big Data, Deep Learning, Applied Machine Learning in Finance, Design and Analysis of Algorithms, Computer Vision
 
 ---  
 
-### Bachelor of Engineering, Computer Science and Engineering 
+### Bachelor of Engineering - Computer Science and Engineering 
 <table border="0">
 <tr>
 <td><a href="https://www.msrit.edu/">Ramaiah Institute of Technology, Bengaluru</a>
@@ -32,6 +30,7 @@ Information Visualization, Machine Learning, Fundamentals of Data Science
 </tr>
 </table>  
 CGPA: 9  
+Coursework: Machine Learning, Python Programming, Web Development, Algorithms, Data Structures, C,C++ Programming, Operating Systems, Discrete Mathematics
 
 ---
 
