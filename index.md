@@ -15,7 +15,7 @@ layout: default
     }
 </style>
 
-<body style="background-color: #B1D0E0">
+<body >
 
 <div class="divhw" ><font size=6>Hello World,</font> </div>
 <br>
