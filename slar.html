@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <script>
+
+            const handleImageClick= event => {
+                const el = event.srcElement
+                var id = el.id.slice(2)
+                var url = "assets/bin/"+id+".jpg"
+
+                // const reader = new FileReader()
+                // var image = reader.readAsBinaryString(url)
+
+
+                var formData = new FormData()
+                formData.append('myFile', rawFile)
+                
+
+                fetch('https://ansidd.eastus.cloudapp.azure.com:8080/detect_image', {
+                    method: 'POST',
+                    body:  formData
+                    
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    label = document.getElementById("alphabet")
+                    label.removeAttribute('hidden')
+                    text="The above sign is " + data['result']
+                    console.log(text)
+                    label.innerText = text
+                })
+                .catch(error => {
+                    console.error(error)
+                })
+            }
+
+            window.onload=function(){
+                var el = document.getElementById('fileUpload')
+                if(el){
+                el.addEventListener('change', event => {
+                handleImageUpload(event)
+                })
+                }
+
+                const chars = ['B', 'E', 'H', 'I', 'L','O','space','W','Y']
+                for(var i=0; i<9; i++){
+                    id = chars[i]
+                    console.log(id)
+                    var el = document.getElementById("img_"+id)
+                    console.log(el)
+                    if(el){
+                    el.addEventListener('click', event => {
+                    handleImageClick(event)
+                    })
+                    }
+
+                }
+            }
+
+            const handleImageUpload = event => {
+            const files = event.target.files
+            const formData = new FormData()
+            formData.append('myFile', files[0])
+            image = document.getElementById('image')
+            image.setAttribute('src',URL.createObjectURL(files[0]))
+            
+
+            fetch('https://ansidd.eastus.cloudapp.azure.com:8080/detect_image', {
+                method: 'POST',
+                body:  formData
+                
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+                label = document.getElementById("alphabet")
+                label.removeAttribute('hidden')
+                text="The above sign is " + data['result']
+                console.log(text)
+                label.innerText = text
+            })
+            .catch(error => {
+                console.error(error)
+            })
+            }
+
+            const dummy = function(){
+                console.log("here")
+            }
+
+
+
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1>
+                Sign Language Alphabet Translator
+            </h1>
+            <h3>
+                Upload an image file below
+            </h3>
+            <input type="file" id="fileUpload" /><br><br>
+            <img src="" id="image"></img><br><br>
+            <label id="alphabet" hidden="hidden"></label>
+            <br>
+            <br>
+            <h2>
+                You can use the following images to test:
+            </h2>
+            
+            <table>
+                <tr>
+                    <td><img src="assets/bin/B.jpg" width="140" id="img_B" ></td>
+                    <td><img src="assets/bin/E.jpg" width="140" id="img_E"></td>
+                    <td><img src="assets/bin/H.jpg" width="140" id="img_H"></td>
+                    <td><img src="assets/bin/I.jpg" width="140" id="img_I"></td>
+                    <td><img src="assets/bin/L.jpg" width="140" id="img_L"></td>
+
+                </tr>
+                <tr>
+                    <td><img src="assets/bin/O.jpg" width="140" id="img_O"></td>
+                    <td><img src="assets/bin/space.jpg" width="140" id="img_space"></td>
+                    <td><img src="assets/bin/W.jpg" width="140" id="img_W"></td>
+                    <td><img src="assets/bin/Y.jpg" width="140" id="img_Y"></td>
+
+                </tr>
+            </table>
+            
+
+        </center>
+    </body>
+</html>
