@@ -56,6 +56,8 @@ Using DBScan a clustering algorithm, identified biomarkers from gene expression 
 ### Sign Language Alphabet Recognizer  
 
 Developed a sign language translation system that would detect and recognise the signs representing alphabets in sign language made in a webcam feed and outputs it on the screen. We had created our own database and trained an SVM Classifier model with it.
+
+
 **Use it here:** <a href="https://ansidd.github.io/slar.html">Sign Language Alphabet Recogniser</a>  
 
 **Collaborators:** <a href="https://www.linkedin.com/in/bhavya-97/">Bhavya Jain</a>  
