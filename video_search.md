@@ -15,7 +15,7 @@ layout: default
 
         function send_request(){
             var query = document.getElementById('vid_search_query').value
-               fetch('https://ansidd.eastus.cloudapp.azure.com:8000/search/?query='+query,{
+               fetch('https://34.75.222.209:8000/search/?query='+query,{
                 method : 'GET',
                 headers : {
                     'Content-Type': 'application/json; charset=UTF-8'
