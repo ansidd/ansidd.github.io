@@ -38,7 +38,12 @@ layout: default
 
 
 <b>
-<p>I'm a Computer Science Engineer. Currently pursuing a Master's degree at NYU Tandon School of Engineering focusing on Deep Learning, Computer Vision and Natural Language Processing. I've worked on a variety of projects in these areas over the years. Currently a part of the CV team of the NYU Ultraviolet Robomasters. </p>
+<p>Essentially a Computer Science Engineer, I am skilled in Machine Learning, Data Science and Engineering. I recently graduated from New York University with a Master's degree in Computer Science. I am passionate about using Machine Learning to solve complex problems in different domains. I have worked on various projects in the Computer Vision and Natural Language Processing fields. I have built a [Video Search System](https://ansidd.github.io/video_search.html) that uses Dual Encoders, a [Face Search System](https://github.com/ansidd/VisualSearch), a [Sign Language Alphabet Translator](https://ansidd.github.io/slar.html) etc. and am currently experimenting with GANs.
+
+As a Data Scientist at IBM, in a team of three, I developed ETL Pipeline from scratch and deployed it on the IBM Cloud. I wrote transformation scripts in Python that implemented complex business logic to convert thousands of records of raw data in excel files to hundreds of user-defined KPIs as an automated service that ran every week. I also developed a knowledge graph from raw text data using NLP techniques. 
+
+Python is my primary language and I am also skilled in Java, Javascript, C/C++ and C#
+ </p>
 
 <p>Please take a look around to know more about me. Feel free to mail me at as15840@nyu.edu if you have any unanswered questions or just to say hi :) </p>
 
