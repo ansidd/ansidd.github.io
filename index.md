@@ -54,7 +54,8 @@ Python is my primary language and I am also skilled in Java, Javascript, C/C++ a
 
 <b>🚀 Experienced Software Engineer | Master's in Computer Science | IBM Alum</b>
 
-I'm a dynamic Software Engineer with a Master's degree in Computer Science from New York University. My expertise spans Machine Learning, Data Science, and Engineering, and I'm passionate about leveraging these skills to tackle complex challenges across various domains.<br/>
+<p>
+I'm a dynamic Software Engineer with a Master's degree in Computer Science from New York University. My expertise spans Machine Learning, Data Science, and Engineering, and I'm passionate about leveraging these skills to tackle complex challenges across various domains.<br/></p>
 
 <p>
 At IBM, I excelled as a Cognitive Data Scientist, leading a team in developing a robust ETL Pipeline. I crafted Python scripts, implementing intricate business logic, and seamlessly deployed the pipeline via IBM cloud functions. This automated marvel streamlined data loads and manipulations in the PostgreSQL database, enhancing operational efficiency.<br/></p>
