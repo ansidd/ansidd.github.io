@@ -49,8 +49,6 @@ layout: default
                         console.log(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
                         console.log(vid_element.getAttribute("error"))
                     });
-
-                    vid_element.setAttribute("error",false)
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
                     
 
