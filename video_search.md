@@ -41,15 +41,14 @@ layout: default
                 vid_source_element = document.getElementById('vid_source_'+count)
 
                 if(i<=l){
-                    vid_element.onerror = () => {
-                        error = true
-                        console.error(
-                            `Error ${vid_element.error.code}; details: ${vid_element.error.message}`,
-                        );
-                    };
+
                     vid_element.removeAttribute('hidden')
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
                     //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
+                    vid_element.addEventListener("error", () => {
+                        error = true
+                        console.error(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
+                    });
 
                     if(error){
                         error = false;
@@ -63,9 +62,9 @@ layout: default
                     vid_element.setAttribute('hidden', 'hidden')
                 }
 
-                    if(count==11){
-                        break;
-                    }
+                if(count==11){
+                    break;
+                }
 
             }
 
