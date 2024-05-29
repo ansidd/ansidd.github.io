@@ -44,7 +44,7 @@ layout: default
                     vid_element.onerror = () => {
                         error = true
                         console.error(
-                            `Error ${videoElement.error.code}; details: ${videoElement.error.message}`,
+                            `Error ${vid_element.error.code}; details: ${vid_element.error.message}`,
                         );
                     };
                     vid_element.removeAttribute('hidden')
