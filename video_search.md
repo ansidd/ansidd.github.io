@@ -33,7 +33,7 @@ layout: default
 
 
             var i=1,l=video_list.length
-            var count = 0
+            var count = 1
             var error = false
 
             for(i=1; ;i++){
@@ -52,10 +52,14 @@ layout: default
                     //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
 
                     if(error){
-                        error = false
+                        error = false;
                     }else{
-                        count+=1
+                        count+=1;
                     }
+
+                if(count==10){
+                    break;
+                }
 
                 }else{
                     vid_element.setAttribute('hidden', 'hidden')
