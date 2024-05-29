@@ -36,7 +36,7 @@ layout: default
             var count = 1
             var error = false
 
-            for(i=1; ;i++){
+            for(i=1; i<l ;i++){
                 vid_element = document.getElementById('video'+count)
                 //vid_source_element = document.getElementById('vid_source_'+count)
 
