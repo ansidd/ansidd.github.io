@@ -57,13 +57,15 @@ layout: default
                         count+=1;
                     }
 
-                if(count==11){
-                    break;
-                }
+
 
                 }else{
                     vid_element.setAttribute('hidden', 'hidden')
                 }
+
+                    if(count==11){
+                        break;
+                    }
 
             }
 
