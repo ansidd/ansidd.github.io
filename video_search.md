@@ -50,7 +50,7 @@ layout: default
                         console.error(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
                     });
 
-                    if(error){
+                    if(error==true){
                         error = false;
                     }else{
                         count+=1;
