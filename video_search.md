@@ -44,10 +44,10 @@ layout: default
 
                     vid_element.removeAttribute('hidden')
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
-                    vid_element.createAttribute("error")
+                    
 
                     vid_element.addEventListener("error", () => {
-                        vid_element.error = true
+                        vid_element.setAttribute("error",true)
                         console.log(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
                         console.log(vid_element.error)
                     });
