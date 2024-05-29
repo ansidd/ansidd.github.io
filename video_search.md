@@ -46,12 +46,12 @@ layout: default
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
 
                     vid_element.addEventListener("error", () => {
-                        vid_element.error = true
+                        vid_element.error = True
                         console.log(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
                     });
 
-                    if(vid_element.error==true){
-                        vid_element.error = false;
+                    if(vid_element.error==True){
+                        vid_element.error = False;
                     }else{
                         count+=1;
                     }
