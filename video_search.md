@@ -52,10 +52,11 @@ layout: default
                         console.log(vid_element.getAttribute("error"))
                     });
 
-                    if(vid_element.getAttribute("error")==true){
+                    if(vid_element.getAttribute("error")){
                         vid_element.setAttribute("error",false);
                     }else{
-                        count+=1;
+                        count=count+1;
+                        console.log(count)
                     }
 
 
