@@ -33,14 +33,29 @@ layout: default
 
 
             var i=1,l=video_list.length
-            for(i==1; i<=10; i++){
-                vid_element = document.getElementById('video'+i)
-                vid_source_element = document.getElementById('vid_source_'+i)
+            var count = 0
+            var error = false
+
+            for(i=1; ;i++){
+                vid_element = document.getElementById('video'+count)
+                vid_source_element = document.getElementById('vid_source_'+count)
 
                 if(i<=l){
+                    vid_element.onerror = () => {
+                        error = true
+                        console.error(
+                            `Error ${videoElement.error.code}; details: ${videoElement.error.message}`,
+                        );
+                    };
                     vid_element.removeAttribute('hidden')
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
                     //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
+
+                    if(error){
+                        error = false
+                    }else{
+                        count+=1
+                    }
 
                 }else{
                     vid_element.setAttribute('hidden', 'hidden')
