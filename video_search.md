@@ -38,20 +38,20 @@ layout: default
 
             for(i=1; ;i++){
                 vid_element = document.getElementById('video'+count)
-                vid_source_element = document.getElementById('vid_source_'+count)
+                //vid_source_element = document.getElementById('vid_source_'+count)
 
                 if(i<=l){
 
                     vid_element.removeAttribute('hidden')
                     vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"
-                    //vid_element.src= "https://videodatabasearjun.blob.core.windows.net/videos/video0.mp4"
+
                     vid_element.addEventListener("error", () => {
-                        error = true
+                        vid_element.error = true
                         console.log(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
                     });
 
-                    if(error==true){
-                        error = false;
+                    if(vid_element.error==true){
+                        vid_element.error = false;
                     }else{
                         count+=1;
                     }
