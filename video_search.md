@@ -49,11 +49,11 @@ layout: default
                     vid_element.addEventListener("error", () => {
                         vid_element.setAttribute("error",true)
                         console.log(`Error loading: ${"https://videodatabasearjun.blob.core.windows.net/videos/"+video_list[i-1]+".mp4"}`);
-                        console.log(vid_element.error)
+                        console.log(vid_element.getAttribute("error"))
                     });
 
-                    if(vid_element.error==true){
-                        vid_element.error = false;
+                    if(vid_element.getAttribute("error")==true){
+                        vid_element.setAttribute("error",false);
                     }else{
                         count+=1;
                     }
