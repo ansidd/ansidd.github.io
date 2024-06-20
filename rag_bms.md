@@ -21,7 +21,7 @@ layout: default
 
         function send_request(){
             var query = document.getElementById('vid_search_query').value
-               fetch('https://ansidd.eastus.cloudapp.azure.com:8000/rag/?query='+query,{
+               fetch('https://ansidd.eastus.cloudapp.azure.com:8000/rag_bms/?query='+query,{
                 method : 'GET',
                 headers : {
                     'Content-Type': 'application/json; charset=UTF-8'
@@ -32,7 +32,7 @@ layout: default
         .then(function(response){
             console.log(response);
 
-            displayData(data);
+            displayData(response);
 
         })};
 
