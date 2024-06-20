@@ -31,7 +31,6 @@ layout: default
         .then(response => response.json())
         .then(function(response){
             console.log(response);
-            response = response.replace("\n", "<br>");
             displayData(response);
 
         })};
