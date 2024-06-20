@@ -42,7 +42,7 @@ layout: default
 
 <center>
 
-<input type='text' id='vid_search_query' value='Driving car on the highway'>
+<input type='text' id='vid_search_query' value='What is the mission of Bristol Myers Squibb?' style="width: 200px">
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
