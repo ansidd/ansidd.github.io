@@ -6,6 +6,10 @@ layout: default
 
 ---
 
+div {
+    white-space: pre-wrap;
+}
+
 
 <html>
 <head>
@@ -49,6 +53,7 @@ layout: default
 <br>
 <br>
 <div id="dataContainer">
+
 <label style="width:200px" id="resultDisplay">Loading data...</label></div>
 </center>
 </body>
