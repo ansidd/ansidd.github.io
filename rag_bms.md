@@ -36,7 +36,8 @@ layout: default
         )
         .then(response => response.json())
         .then(function(response){
-            response = response.replace("\n", "");
+            response = response.split("\n")
+            response = "<p>"+response.join("</p><p>") +"</p>"
             console.log(response);
             displayData(response);
 
