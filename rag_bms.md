@@ -14,13 +14,15 @@ layout: default
         var video_list = null
 
     function displayData(data) {
-        const dataContainer = document.getElementById('dataContainer');
+        const dataContainer = document.getElementById('resultDisplay');
         dataContainer.textContent = JSON.stringify(data, null, 2);
     }
 
 
         function send_request(){
-            var query = document.getElementById('vid_search_query').value
+            displayData("Processing Request!")
+            
+            var query = document.getElementById('search_query').value
                fetch('https://ansidd.eastus.cloudapp.azure.com:8000/rag_bms/?query='+query,{
                 method : 'GET',
                 headers : {
@@ -41,11 +43,12 @@ layout: default
 
 <center>
 
-<input type='text' id='vid_search_query' value='What is the mission of Bristol Myers Squibb?' style="width: 200px">
+<input type='text' id='search_query' value='What is the mission of Bristol Myers Squibb?' style="width: 200px">
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
-<div id="dataContainer">Loading data...</div>
+<div id="dataContainer">
+<textarea id="resultDisplay">Loading data...</textarea></div>
 </center>
 </body>
 </html>
