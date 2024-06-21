@@ -37,7 +37,7 @@ layout: default
         .then(response => response.json())
         .then(function(response){
             response = response.split("\n")
-            response = "<p>"+response.join("</p><p>") +"</p>"
+            response = response.join("") 
             console.log(response);
             displayData(response);
 
