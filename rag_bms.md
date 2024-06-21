@@ -6,13 +6,10 @@ layout: default
 
 ---
 
-
-
-
 <html>
 <head>
     <style>
-        div {
+        div.with-breaks {
         white-space: pre-wrap;
         }   
     </style>
@@ -21,7 +18,7 @@ layout: default
         var video_list = null
 
     function displayData(data) {
-        const dataContainer = document.getElementById('resultDisplay');
+        const dataContainer = document.getElementById('dataContainer');
         dataContainer.textContent = JSON.stringify(data, null, 2);
     }
 
@@ -55,9 +52,8 @@ layout: default
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
-<div id="dataContainer">
-
-<label style="width:200px" id="resultDisplay">Loading data...</label></div>
+<div class="with-breaks" id="dataContainer">
+Please enter a query!</div>
 </center>
 </body>
 </html>
