@@ -21,7 +21,7 @@ layout: default
 
         function send_request(){
             displayData("Processing Request!")
-            
+
             var query = document.getElementById('search_query').value
                fetch('https://ansidd.eastus.cloudapp.azure.com:8000/rag_bms/?query='+query,{
                 method : 'GET',
@@ -48,7 +48,7 @@ layout: default
 <br>
 <br>
 <div id="dataContainer">
-<textarea id="resultDisplay">Loading data...</textarea></div>
+<pre id="resultDisplay">Loading data...</pre></div>
 </center>
 </body>
 </html>
