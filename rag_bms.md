@@ -6,13 +6,16 @@ layout: default
 
 ---
 
-div {
-    white-space: pre-wrap;
-}
+
 
 
 <html>
 <head>
+    <style>
+        div {
+        white-space: pre-wrap;
+        }   
+    </style>
     <script>
         
         var video_list = null
