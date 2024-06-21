@@ -24,7 +24,7 @@ layout: default
 
 
         function send_request(){
-            displayData("Processing Request!")
+            displayData("Processing Request... It takes a bit of time for the first query, it picks up speed afterwards!")
 
             var query = document.getElementById('search_query').value
                fetch('https://ansidd.eastus.cloudapp.azure.com:8000/rag_bms/?query='+query,{
