@@ -32,6 +32,7 @@ layout: default
         )
         .then(response => response.json())
         .then(function(response){
+            response = response.replace("\n", "");
             console.log(response);
             displayData(response);
 
