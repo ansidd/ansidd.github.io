@@ -19,7 +19,7 @@ layout: default
 
     function displayData(data) {
         const dataContainer = document.getElementById('dataContainer');
-        dataContainer.textContent = JSON.stringify(data, null, 2);
+        dataContainer.textContent = data;
     }
 
 
