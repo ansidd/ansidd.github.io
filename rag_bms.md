@@ -49,7 +49,7 @@ layout: default
 
 <center>
 
-<input type='text' id='search_query' value='What is the mission of Bristol Myers Squibb?' style="width: 200px">
+<input type='text' id='search_query' value='Enter your query' style="width: 200px">
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
