@@ -49,7 +49,7 @@ layout: default
 <br>
 <br>
 <div id="dataContainer">
-<pre id="resultDisplay">Loading data...</pre></div>
+<label style="width:200px" id="resultDisplay">Loading data...</label></div>
 </center>
 </body>
 </html>
