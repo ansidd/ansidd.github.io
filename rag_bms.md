@@ -53,7 +53,7 @@ layout: default
 <button id='submit' onClick="send_request()">Search</button>
 <br>
 <br>
-<div>Example queries to get you started: </br>
+<div>Example queries to get you started:   
 What is the mission of Bristol Myers Squibb? ; What is the culture at BMS like?; Where is the headquarters of BMS?
 </div>
 <div>-------</div>
